@@ -1,0 +1,87 @@
+body {
+    background: rgb(2, 0, 36);
+    background: radial-gradient(
+      circle,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(30, 54, 59, 1) 0%,
+      rgba(93, 93, 116, 1) 100%
+    );
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+  }
+  
+  .container > form {
+    width: 100%;
+    border: 1px solid #dfdfdf;
+    padding: 20px;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ui-form {
+    padding: 11px;
+  }
+  
+  .field {
+    margin: 15px 0;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  label {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 14px;
+    width: 100%;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background: #f9f9f9;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #4e73df;
+    background: #eaf1ff;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #4e73df;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3557b7;
+  }
+  
+  button:active {
+    background-color: #2e468d;
+  }
+  
+  p {
+    color: red;
+  }
