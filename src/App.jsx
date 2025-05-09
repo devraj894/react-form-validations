@@ -2,6 +2,7 @@
 import Form from "./components/React_Hook_Form/Form";
 
 function App() {
+  const merge2 = true;
   return (
    <>
    {/* <Form/> */}
